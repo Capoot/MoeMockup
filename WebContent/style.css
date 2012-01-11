@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 2em 5em;
+    font-family: Helvetica, serif;
+}
+
+#page__wrapper {
+    background: #fff;
+}
+
+header h1 {
+    display: inline;
+    font-size: 2em;
+    color: #8bb332;
+}
+
+header h1 a {
+    color: #8bb332;
+}
+header h1 a:hover {
+    text-decoration: none;
+}
+
+header h2 {
+    margin-left: 1em;
+    display: inline;
+    font-size: 1em;
+}
+
+.moe {
+    color: #6c9117;
+}
+
+header {
+    border-bottom: 1px solid #000;
+    margin-bottom: 1em;
+}
+
+footer {
+    border-top: 1px solid #000;
+    font-size: 0.7em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+footer p {
+    display: inline;
+    margin: 0 1em;
+}
+
+#content h1 {
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+
+#content ul,
+#content ol {
+    list-style-position: inside;
+    margin-left: .5em;
+    list-style-type: square;
+}
+
+a, a:link, a:active {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#content table {
+    margin: 1em 0;
+}
+
+#content table,
+#content tr,
+#content td,
+#content th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+#content td,
+#content th {
+    padding: .5em 1em;
+    text-align: left;
+}
+#content .delete {
+    margin-left: .5em;
+}
+
+
+#content fieldset {
+    border: 1px outset #ccc;
+    padding: 1em;
+    width: 40em;
+    margin: 1em 0;
+}
+
+#content fieldset p label {
+    width: 10em;
+    display: inline-block;
+}
+
+#content input[type=submit] {
+    padding: .3em 1em;
+}
